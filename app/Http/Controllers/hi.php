@@ -1,2 +1,2 @@
-Add content to hi.php for Git pull test
+git add app/Http/Controllers/hi.php
 
