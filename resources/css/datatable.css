@@ -1,0 +1,17 @@
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_desc:after {
+    font-family: FontAwesome;
+    content: "\f0dc"; /* fa-bars */
+    float: right;
+    padding-left: 10px;
+    color: #888;
+}
+
+table.dataTable thead .sorting_asc:after {
+    content: "\f0de"; /* fa-arrow-up */
+}
+
+table.dataTable thead .sorting_desc:after {
+    content: "\f0dd"; /* fa-arrow-down */
+}
